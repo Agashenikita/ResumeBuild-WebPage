@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.input-fields{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    text-align: center;
+    display:block;
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:500px;
+    margin-left: 35%;
+    padding:30px;
+    border-radius: 10px;
+   box-shadow: 5px 10px 20px rgb(220, 227, 220) ;
+
+}
+.resume{
+    background-color: rgb(85, 85, 85);
+    text-align: center;
+    padding: 10px;
+    color:white
+}
+
+input:focus,textarea:focus {
+    outline: none;
+    border:2px solid rgb(78, 14, 96);
+
+}
+
+body{
+    border:solid rgb(194, 182, 182);
+    background: linear-gradient(155deg,rgb(220, 207, 216) 10%,rgb(184, 155, 184),rgb(199, 184, 196));
+}
+h1{
+    border:2px solid black;
+
+  text-align: center;
+
+  background-color: rgb(214, 188, 153);
+  box-shadow: 5px 10px 20px rgb(174, 121, 175) ;
+
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(216, 147, 200);
+}
+
+.main h2{
+    border-bottom: 2px solid rgb(7, 7, 7);
+    width: max-content;
+    color:white
+}
+.btn{
+    text-align: center;
+    margin: 2px;
+}
+button:hover{
+    color: rgb(13, 17, 14);
+}
+button{
+    width: 150px;
+    background-color: rgb(172, 59, 144);
+    color: white;
+    font-size: 20px;
+    border: 3px solid rgb(76, 9, 66);
+    border-radius: 20px;
+}

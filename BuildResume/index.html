@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="index.js"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+       
+    <title>Resume</title>
+</head>
+    <body>
+    <form class="input-fields">
+    <!-- <div class="form"> -->
+        <h1 style="text-align: center;">Resume Builder</h1>
+        Enter your name:- <br><input type="text" name="Name" placeholder="Name" /></br>
+        Title:- <br><input type="text" name="title" placeholder="Title eg..web developer" /></br>
+        Work Experience:- <br><textarea name="workexp" placeholder="Work Experience"></textarea></br>
+        Academic Details:-<br><textarea name="academics" placeholder="Academic Details"></textarea></br>
+        Hobbies:- <br><input name="Hobbies" placeholder="Hobbies" /></br>
+        Skills:- <br><textarea name="skills" placeholder="Skills" ></textarea></br>
+        Projects:-<br><textarea name="projects" placeholder="Projects" ></textarea></br>
+        Achievements:-<br><textarea name="achievements" placeholder="Achievements" ></textarea></br>
+        Contact:-<br><textarea name="contact" placeholder="Contact" ></textarea></br>
+        Upload your photo: <br><input type="File" name="img"required><br><br>
+    <!-- </div> -->
+  </form>
+  <!-- resume preview -->
+  <div class="output">
+
+  </div>  
+  <!-- button for toggle   -->
+ <div class="btn">
+      <button onclick="toggle()">Preview or edit</button>
+ </div>
+ <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
+  <script src="index.js"></script>
+</body>
+    
+
+</html>
